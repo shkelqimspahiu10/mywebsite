@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <script src="scripts.js"></script>
+<link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+   <nav class="navbar">
+        <div class="logo">My Website</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+    </nav>
+    <div class="home-introduction">
+    <h1>Welcome to My Website!</h1>
+    <p>
+        We are excited to have you here. This website is dedicated to [describe the purpose or focus of your website]. Whether you're looking for [mention a few key topics or services], you've come to the right place.
+    </p>
+    <p>
+        Feel free to explore our site to learn more about what we offer. Start by visiting our <a href="about.html">About Us</a> page to get to know us better, or check out our <a href="services.html">Services</a> to see how we can help you.
+    </p>
+</div>
+<section id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-member">
+        <img src="images/team-member1.jpg" alt="Team Member Name">
+        <h3>John Doe</h3>
+        <p>CEO & Founder</p>
+        <p>John has over 20 years of experience in [industry], leading the company with passion and vision.</p>
+    </div>
+    <!-- Repeat for other team members -->
+</section>
+<section id="contact-form">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<section id="beach-recommendation">
+    <h2>Beach Recommendation: Whitehaven Beach</h2>
+    <p>Whitehaven Beach is one of the most beautiful beaches in the world, located on Whitsunday Island in Australia. Known for its pristine white sand and crystal-clear waters, it's a must-visit destination for beach lovers.</p>
+    
+    <div class="images">
+        <img src="images/whitehaven1.jpg" alt="Whitehaven Beach - Aerial View">
+        <img src="images/whitehaven2.jpg" alt="Whitehaven Beach - Close Up">
+    </div>
+</section>
+<section id="temple-recommendation">
+    <h2>Temple Recommendation: Angkor Wat</h2>
+    <p>Angkor Wat, located in Cambodia, is the largest religious monument in the world. This magnificent temple complex is a UNESCO World Heritage site and a symbol of Cambodia's rich history and culture.</p>
+    
+    <div class="images">
+        <img src="images/angkor1.jpg" alt="Angkor Wat - Sunrise">
+        <img src="images/angkor2.jpg" alt="Angkor Wat - Temple Complex">
+    </div>
+</section>
+<section id="country-recommendation">
+    <h2>Explore Japan</h2>
+    <p>Japan is a country of contrasts, blending ancient traditions with cutting-edge technology. From the bustling streets of Tokyo to the serene temples of Kyoto, Japan offers a unique and unforgettable experience.</p>
+    
+    <div class="images">
+        <img src="images/japan1.jpg" alt="Tokyo Cityscape">
+        <img src="images/japan2.jpg" alt="Kyoto Temple">
+    </div>
+</section>
+
+
+
+
+    <!-- Your existing content goes here -->
+ 
+
+  <div   
+ id="content">
+    </div>
+
+  <footer>
+    &copy; 2023 My Website
+  </footer>
+</body>
+</html>
